@@ -4,7 +4,7 @@
 ![](https://img.shields.io/npm/dt/pc-pcm-wave.svg)
 ![](https://img.shields.io/npm/v/pc-pcm-wave.svg)
 
-一个简单的`pcm`波纹的工具可以只是多个状态, 线条样式波纹效果等, 适用于`preact`项目, `hooks`编写, 有如下特性
+一个简单的`pcm`波纹效果, 适用于`preact`项目, `hooks`编写, 有如下特性
 
 1. 可自定义状态数量
 2. 可自定义线的数量、粗细、颜色、波速、振幅、延迟等参数
