@@ -1,0 +1,46 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "style/*": [
+        "src/style\\*"
+      ],
+      "preact-cli-entrypoint/*": [
+        "src/index\\*"
+      ],
+      "react/*": [
+        "preact/compat\\*"
+      ],
+      "react-dom/*": [
+        "preact/compat\\*"
+      ],
+      "react-addons-css-transition-group/*": [
+        "preact-css-transition-group\\*"
+      ],
+      "preact-cli/async-component": [
+        "/run/media/deepkolos/Data/DEV/Github/opensource/pc-pcm-wave/node_modules/@preact/async-loader/async.js"
+      ],
+      "preact-compat/*": [
+        "preact/compat\\*"
+      ],
+      "mock/*": [
+        "mocks\\*"
+      ],
+      "lib/*": [
+        "src/libs\\*"
+      ],
+      "img/*": [
+        "src/images\\*"
+      ],
+      "util/*": [
+        "src/utils\\*"
+      ],
+      "srv/*": [
+        "src/services\\*"
+      ],
+      "com/*": [
+        "src/components\\*"
+      ]
+    }
+  }
+}

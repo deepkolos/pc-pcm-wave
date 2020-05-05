@@ -1,0 +1,35 @@
+.can {
+  width: 80px;
+}
+
+.can[data-disable='true'] .label {
+  color: rgba(0, 0, 0, 0.2);
+}
+.can[data-disable='true']:active .icon {
+  transform: scale(1);
+}
+.can:active .icon {
+  transform: scale(0.9);
+}
+
+.icon {
+  display: block;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  transition: all ease 0.14s;
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.label {
+  margin-top: 18px;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.9);
+  text-align: center;
+}

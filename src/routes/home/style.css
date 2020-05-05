@@ -1,0 +1,53 @@
+.home {
+  /* padding: 20px; */
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  padding: 0 20px;
+}
+
+.descTitle {
+  padding: 20px;
+  font-size: 26px;
+  color: aliceblue;
+  text-align: center;
+}
+
+.descText {
+  flex: auto;
+  padding-left: 30px;
+  padding-right: 10px;
+  padding-top: 0;
+  color: #f6f6f6;
+}
+
+.waveCan {
+  flex-shrink: 0;
+  height: 100px;
+}
+
+.card {
+  flex: auto;
+  margin: 10px 40px;
+  background-color: #03c6de;
+  border-radius: 20px;
+  box-shadow: 0px 0px 18px 0px #03c6de8c;
+  display: flex;
+  flex-direction: column;
+}
+
+.bottomCan {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px 0;
+  flex-shrink: 0;
+}
+
+.btnRecord .recording {
+  filter: grayscale(0.3);
+  transform: scale(0.9);
+}

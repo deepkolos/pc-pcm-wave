@@ -1,0 +1,7 @@
+{
+  "src/**/*.{js,ux,less,css,scss,vue}": [
+    "prettier --write",
+    "\"./node_modules/.bin/eslint\" src --fix",
+    "git add"
+  ]
+}

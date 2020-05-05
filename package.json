@@ -1,0 +1,46 @@
+{
+  "name": "pc-pcm-wave",
+  "version": "1.0.0",
+  "description": "preact pcm wave player",
+  "main": "lib/pc-pcm-wave.js",
+  "scripts": {
+    "start": "per-env",
+    "start:production": "npm run -s serve",
+    "start:development": "npm run -s dev",
+    "module": "preact build --sw false --module",
+    "build": "preact build --sw false --no-prerender --esm false",
+    "serve": "preact build --sw false --no-prerender --esm false && sirv build --cors --single",
+    "dev": "preact watch --sw false --no-prerender",
+    "lint": "eslint src",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "DeepKolos <deepkolos@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "base64-arraybuffer": "^0.2.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-preact-pure": "^2.2.0",
+    "eslint": "^6.8.0",
+    "eslint-config-preact": "^1.1.1",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^25.5.4",
+    "jest-preset-preact": "^1.0.0",
+    "lamejs": "^1.2.0",
+    "less": "^3.11.1",
+    "less-loader": "^6.0.0",
+    "per-env": "^1.0.2",
+    "preact-cli": "^3.0.0-rc.10",
+    "preact-render-spy": "^1.3.0",
+    "preact-render-to-string": "^5.1.7",
+    "preact-router": "^3.2.1",
+    "rxjs": "^6.5.5",
+    "sirv-cli": "^0.4.5",
+    "wave-resampler": "^1.0.0",
+    "webpack-alias-sync-plugin": "0.0.1",
+    "worker-loader": "^2.0.0"
+  },
+  "dependencies": {
+    "preact": "^10.4.1"
+  }
+}

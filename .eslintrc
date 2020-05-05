@@ -1,0 +1,5 @@
+{
+  "extends": "preact",
+  "ignorePatterns": ["build/", "lib/", "src/sw.js"],
+  "rules": {}
+}
